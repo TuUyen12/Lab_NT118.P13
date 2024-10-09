@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Lab2_NT118</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="bai1">bài 1: listview activity</string>
+    <string name="bai2">bài 2: listview activity with arraylist</string>
+    <string name="bai3">bài 3: listview_arraylist_object</string>
+    <string name="bai4">bài 4: custom adapter </string>
+    <string name="bai5">bài 5: gridview spinner</string>
+    <string name="bai6">bài 6: recyclerview </string>
+    <string name="listview">  listview control</string>
+    <string name="nhap">nhập</string>
+    <string name="nhapnv">nhập nhân viên</string>
+    <string name="ma_NV">Mã NV:</string>
+    <string name="ten_NV">Tên NV:</string>
+    <string name="loai_NV">Loại NV:</string>
+    <string name="radiobtn1">Chính thức</string>
+    <string name="radiobtn2">Thời vụ</string>
+    <string name="staff">Staff</string>
+</resources>

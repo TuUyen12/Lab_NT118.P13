@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_uyen1_foreground"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/pink">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/tv_nhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="NHẬP TÊN:"
+        app:layout_constraintTop_toBottomOf="@id/iv_icon"
+        android:layout_marginTop="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/et_nhap"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:background="#72F0BECF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:hint="Tên"
+        app:layout_constraintTop_toBottomOf="@id/iv_icon"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@id/tv_nhap"
+        app:layout_constraintLeft_toRightOf="@id/tv_nhap"
+        android:layout_marginRight="16dp">
+    </EditText>
+    <Button
+        android:id="@+id/btn_nhap"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/nhap"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        app:layout_constraintTop_toBottomOf="@id/et_nhap"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="15dp">
+
+    </Button>
+    <TextView
+        android:id="@+id/tv_selected"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:background="#1C78C1"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_nhap">
+
+    </TextView>
+
+
+    <ListView
+        android:id="@+id/lv_person"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:background="#74CE7B97"
+        android:scrollbars="vertical"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_selected">
+
+    </ListView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
